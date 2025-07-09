@@ -37,7 +37,7 @@ public class Main {
     // Created a method to remove redundant code
     public static int clothingType(){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter number of product type");
+        System.out.println("Enter the number of the product type you would like");
         System.out.println("1 : Top\n2 : Pants\n3 : Shoes");
         int type = sc.nextInt();
         return type;
@@ -52,7 +52,7 @@ public class Main {
 
     public static int clothingStyle(){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Select what type: ");
+        System.out.println("Enter the number of what style you would like: ");
         System.out.println("1: Professional \n2: Casual \n3: Party");
         int style = sc.nextInt();
         return style;
